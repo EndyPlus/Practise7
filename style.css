@@ -95,3 +95,32 @@ body {
   footer a:hover {
     text-decoration: underline;
   }
+
+  .carousel-inner .carousel-item img {
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #000;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 10%;
+}
+
+.carousel-control-prev {
+  left: -50px;
+}
+
+.carousel-control-next {
+  right: -50px;
+}
+
+.carousel-indicators {
+  bottom: -40px;
+}
